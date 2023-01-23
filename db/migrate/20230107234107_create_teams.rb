@@ -4,7 +4,6 @@ class CreateTeams < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :neighborhood
       t.string :homeground
-      t.integer :standings
-    end
+     end
   end
 end

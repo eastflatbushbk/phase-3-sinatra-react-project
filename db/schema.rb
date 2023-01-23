@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(version: 2023_01_07_234127) do
     t.string "name"
     t.string "neighborhood"
     t.string "homeground"
-    t.integer "standings"
   end
 
   add_foreign_key "players", "teams"
